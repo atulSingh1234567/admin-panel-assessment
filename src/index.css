@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+th{
+    min-width: fit-content;
+    width: 200px;
+    border-bottom: solid 2px rgb(206, 206, 206);
+    height: 40px;
+}
+
+td{
+    border-bottom: solid 1px rgb(231, 231, 231);
+    border-radius: 10px;
+    height: 45px;
+}
