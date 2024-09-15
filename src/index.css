@@ -12,6 +12,17 @@ th{
 td{
     border-bottom: solid 1px rgb(231, 231, 231);
     border-radius: 10px;
-    height: 45px;
+    height: 40px;
+}
+
+@media screen and (max-width: 650px) {
+    *{
+        font-size: 13px;
+    }
+
+    img{
+        width: 5px;
+        height: 5px;
+    }
 }
 
